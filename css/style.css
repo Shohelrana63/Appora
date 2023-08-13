@@ -1,0 +1,177 @@
+/* ========== COMMON CSS PART START ========== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+body,html{
+    scroll-behavior: unset !important;
+    overflow-x: hidden;
+}
+/* ========== COMMON CSS PART END ========== */
+
+
+/* ========== NAVBAR PART START ========== */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.navbar-brand{
+    padding-top: 7px;
+    margin-right: 0;
+    font-size: 0;
+}
+.nav-item {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ddd;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .active .nav-link{
+    color: #fff;
+}
+/* ========== NAVBAR PART END ========== */
+
+
+/* ========== BANNER PART START ========== */
+#banner{
+    background: linear-gradient(45deg, rgba(32, 40, 119, 0.95), rgba(55, 46, 149, 0.95), rgba(83, 49, 177, 0.90), rgba(114, 48, 205, 0.85), rgba(150, 41, 230, 0.95)),url(../images/banner.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    position: relative;
+}
+.custom-shape-divider-bottom-1615658124 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1615658124 svg {
+    position: relative;
+    display: block;
+    width: calc(182% + 1.3px);
+    height: 109px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1615658124 .shape-fill {
+    fill: #FFFFFF;
+}
+.banner-content {
+    margin-top: 50px;
+}
+.banner-content h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+.banner-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    line-height: 26px;
+    padding-right: 100px;
+}
+.banner-btn{
+    padding-top: 15px;
+}
+.banner-btn a{
+    margin-right: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #222;
+    border-radius: 4px;
+    padding: 15px 27px;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    background-color: #fff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.banner-btn a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.banner-btn a:last-child{
+    margin-right: 0;
+}
+.main-banner-slider{
+    position: relative;
+    z-index: 3;
+}
+.screen-banner-slider{
+    padding: 5px 6px;
+    border-radius: 55px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    -ms-border-radius: 55px;
+    -o-border-radius: 55px;
+    overflow: hidden;
+}
+.banner-right-phone{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+#banner.slick-slide img{
+    display: inline-block;
+}
+/* ========== BANNER PART END ========== */
+
+
+/* ========== BANNER PART START ========== */
+/* ========== BANNER PART END ========== */
+
+
+/* ========== BANNER PART START ========== */
+/* ========== BANNER PART END ========== */
+
+
+/* ========== BANNER PART START ========== */
+/* ========== BANNER PART END ========== */
